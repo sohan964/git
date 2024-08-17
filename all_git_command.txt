@@ -1,0 +1,73 @@
+git initial -> git init
+
+select all -> git add .
+
+commit message -> git commit -m "comment"
+
+
+
+
+----- branching -------
+
+see branches -> git branch
+
+project linked to git -> git remote add origin "the git url"
+
+see the connected link -> git remote -v
+
+create new branch -> git branch "name"
+
+branch switching -> git checkout "branch name"
+
+delete branch -> git branch -d "branch name"
+
+create new branch and switch both -> git checkout -b "new branch name"
+
+first time push -> git push -u origin "name"
+
+next time push -> git push
+
+push at another branch -> git push origin "branch name"
+
+staging (modify existing code), commit, push
+			
+			-> git commit -am "comment"
+			-> git push origin "name"
+
+pull/code from main branch -> git pull
+
+see all changes or commits -> git log 
+				-for come back press 'q'
+
+see total commit ids or status -> git log --oneline
+
+get previus commit or get deleted code and delete last commit 
+			-> git reset "previus commit id" --hard
+			-> git push -f
+
+open a particular commit and again push the commit
+				-> git revert "commit id"
+	
+
+
+
+------------ Open Source Contribution ------------
+Mean Contribute on Company projects or Public project
+
+Steps:
+1 -> open the project repo 
+2 -> click Fork and create same repo on my git account
+3 -> git clone the project and open the project
+4 -> create won branch and switch
+5 -> start working on project:
+	i. write codes 
+	ii. for new codes -> git add .
+	iii. for staging => means modify the existing code
+		-> git commit -am "comment"
+	iv. for push -> git push origin "branch name"
+
+6. send for pull request
+
+
+
+ 
